@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1052382706790",
+    "project_id": "voting-by-face-recognation-app",
+    "storage_bucket": "voting-by-face-recognation-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1052382706790:android:9550a16cf1843913ecc1a7",
+        "android_client_info": {
+          "package_name": "com.example.votingbyfacerecognationapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBE5jEn7VJ0-urzKFzahhUEcivlRJ-esl0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

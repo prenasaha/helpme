@@ -9,34 +9,35 @@
     tools:context=".MainActivity">
 
 
-    <EditText
+    <TextView
         android:id="@+id/editTextText"
-        android:layout_width="356dp"
+        android:layout_width="wrap_content"
         android:layout_height="69dp"
         android:ems="10"
-        android:inputType="text"
-        android:text="ONLINE VOTING SYSTEM"
+        android:text="@string/online_voting_system"
         android:textColor="@color/white"
         android:textSize="30sp"
         android:textStyle="bold"
+        android:elevation="6dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.14" />
+        app:layout_constraintVertical_bias="0.145" />
 
     <Button
         android:id="@+id/button"
-        android:layout_width="113dp"
-        android:layout_height="73dp"
-        android:text="Next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.9"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextText"
-        app:layout_constraintVertical_bias="0.974" />
+        app:layout_constraintVertical_bias="0.945" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
